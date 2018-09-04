@@ -6,12 +6,12 @@ import Dashboard from "../Dashboard/Dashboard";
 class Full extends Component {
     render() {
         return (
-            <div>
+            <Container>
                 <Switch>
                     <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
                     <Redirect from="/home" to="/dashboard"/>
                 </Switch>
-            </div>
+            </Container>
         )
     }
 }
