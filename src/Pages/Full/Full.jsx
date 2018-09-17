@@ -8,7 +8,7 @@ class Full extends Component {
         return (
             <Container>
                 <Switch>
-                    <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                    <Route  path="/dashboard" name="Dashboard" component={Dashboard}/>
                     <Redirect from="/home" to="/dashboard"/>
                 </Switch>
             </Container>
